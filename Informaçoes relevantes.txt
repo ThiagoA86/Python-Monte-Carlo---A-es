@@ -1,0 +1,23 @@
+Utilizarei Python para realizar uma simulação de Monte Carlo com o objetivo de prever os valores das ações. A base do meu modelo é a seguinte fórmula: Preço de Hoje = Preço de Ontem x Retorno Logaritmo (Preço de Hoje / Preço de Ontem). Essa fórmula me permite calcular o preço de hoje utilizando o preço de ontem e o retorno logarítmico. No entanto, o preço de hoje é desconhecido, e é justamente esse mistério que quero desvendar, pois se soubesse previamente, estaria rico com poderes de vidência. Portanto, farei uma previsão para o Retorno Logaritmo, que é a minha variável aleatória.
+
+Para prever essa aleatoriedade, utilizarei o método do movimento Browniano. O método do movimento Browniano é uma técnica que simula o comportamento estocástico de um ativo financeiro ao longo do tempo. Ele considera que o preço do ativo varia aleatoriamente, seguindo uma distribuição normal. Ao simular essas variações aleatórias, poderei estimar o Retorno Logaritmo e, consequentemente, o preço de hoje.
+
+Em resumo, utilizando Python e a simulação de Monte Carlo, tentarei prever os preços das ações através da fórmula mencionada, sendo o Retorno Logaritmo estimado com base no método do movimento Browniano.
+
+
+O drift refere-se ao movimento aleatório de preços que ocorre ao longo do tempo e não está diretamente relacionado à performance da empresa ou do setor em que ela atua. É importante compreender que o drift não pode ser previsto com base em informações fundamentais, mas sim é influenciado por fatores externos que afetam a percepção dos investidores sobre a ação.
+
+Para os investidores que desejam lucrar com ações, é fundamental ter uma estratégia de investimento de longo prazo baseada em fundamentos sólidos da empresa e do setor, em vez de confiar apenas nos movimentos aleatórios de preços. Além disso, a diversificação da carteira de investimentos é essencial para reduzir o risco de perdas em um único ativo.
+
+É importante ressaltar que a previsão do drift, ou seja, a direção que as taxas de retorno tiveram no passado, não garante resultados futuros. A análise técnica e outros métodos de previsão de mercado podem fornecer insights sobre padrões passados, mas não são infalíveis para prever o comportamento futuro dos preços das ações. É sempre recomendado realizar uma análise completa e considerar múltiplos fatores antes de tomar decisões de investimento.
+
+
+Após gerar o movimento Browniano com base nas estatísticas das ações, obtemos uma matriz de dimensões 250 linhas por 10 colunas. Para prosseguir com a multiplicação de matrizes, é necessário criar uma segunda matriz equivalente preenchida com zeros.
+
+A matriz com zeros deve incluir o preço de fechamento ajustado da ação no último dia na primeira linha. Utilizei como exemplo a ação "****" para ilustrar esse processo, seguindo a teoria de Dow.
+
+Dessa forma, teremos duas matrizes: uma com o movimento Browniano gerado e outra preenchida com zeros, onde o último preço de fechamento ajustado da ação "****" será inserido na primeira linha.
+
+É importante destacar que a teoria de Dow é uma abordagem analítica que visa analisar os movimentos de preços no mercado financeiro com base em padrões e tendências. Ao utilizar o preço de fechamento ajustado e seguir essa teoria, busca-se obter insights sobre a direção dos preços das ações e identificar possíveis pontos de entrada ou saída do mercado.
+
+No entanto, é fundamental lembrar que a previsão de preços de ações envolve incertezas e riscos, e a teoria de Dow, assim como outras abordagens de análise técnica, não é uma garantia de resultados futuros. Recomenda-se sempre realizar uma análise abrangente, considerar múltiplos fatores e buscar orientação profissional antes de tomar decisões de investimento.
